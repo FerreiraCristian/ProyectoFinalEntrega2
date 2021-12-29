@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+
+/* MENU */
+
+#menu a,
+button {
+    font-size: 18px;
+    font-weight: bold;
+    font-weight: 600;
+}
+
+#menu a {
+    color: #3f3f3f;
+}
+
+
+/* SLIDER */
+
+.carrousel-inner {
+    max-height: 35rem;
+}
+
+
+/* imgNos */
+
+#img-equipo {
+    max-height: 30rem !important;
+    width: 50%;
+}
+
+
+/* nosotrosJS */
+
+.wrapper-local {
+    width: 50%;
+    margin-left: 100px;
+    padding-top: 150px;
+}
+
+
+/* footer */
+
+footer {
+    background: #2b66f0;
+    min-height: 100px;
+    ;
+}
+
+footer p {
+    color: #f3f3f3;
+    text-align: center;
+}
+
+#iconos i {
+    font-size: 26px;
+    padding: 0 8px;
+    color: #f3f3f3;
+}
+
+
+/*MEDIA QUERIES*/
+
+@media (max-width:768px) {
+    #intro,
+    #equipo {
+        width: 90% !important;
+        margin: auto;
+    }
+    #img-equipo {
+        max-height: 20rem !important;
+        width: 90%;
+    }
+    .wrapper-local {
+        width: 90%;
+        margin: auto;
+        padding-top: 50px;
+    }
+    #local {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 576px) {
+    #servicios-fila-2 {
+        width: 100% !important;
+    }
+    #servicios-fila-1 {
+        width: 100% !important;
+    }
+    .icono-wrap {
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+        text-align: center;
+    }
+}
