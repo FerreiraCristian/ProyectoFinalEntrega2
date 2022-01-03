@@ -7,8 +7,13 @@ body {
 
 /* SLIDER */
 
-.carrousel-inner {
-    max-height: 35rem;
+.carousel-inner img {
+    width: 70%;
+    max-height: 700px;
+}
+
+.carousel-inner {
+    height: 600px;
 }
 
 
