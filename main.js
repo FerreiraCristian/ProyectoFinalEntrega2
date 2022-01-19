@@ -7,7 +7,7 @@ let typewriter = new Typewriter(app, {
 
 typewriter
     .pauseFor(2500)
-    .typeString('Ubicado en Capital Federal, Buenos Aires')
+    .typeString('Ubicado en Belgrano')
     .pauseFor(100)
     .deleteChars(10)
     .start();
